@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="center">🎮 DevLife: A Text-Based Career Simulation RPG 🎮</h1>
+  <h1 align="center">🎮 DevLife 🎮</h1>
   <p align="center">
     Simule a jornada de um profissional de TI, desde o primeiro estágio até o topo da carreira, gerenciando habilidades, finanças e bem-estar.
   </p>
@@ -46,13 +46,6 @@ Este projeto foi desenvolvido em **Java 17**, com um forte foco em boas prática
 -  **Gestão Financeira:** Ganhe dinheiro com projetos e salários mensais. Use seus recursos com sabedoria para investir em cursos, participar de eventos e cuidar do seu bem-estar.
 
 - **Networking e Eventos:** Participe de eventos de tecnologia para aumentar seu networking, ganhar experiência e até mesmo desbloquear bônus especiais, como descontos em cursos!
-
----
-
-## Tech Stack
-
--   **Linguagem Principal:** **Java 17 (LTS)**
--   **Gerenciador de Dependências e Build:** **Maven**
 
 ---
 
@@ -106,14 +99,6 @@ O projeto foi estruturado seguindo princípios de **Separação de Responsabilid
     -  **`domain` (Model):** Define as entidades imutáveis do jogo, como `Curso`, `Projeto`, `Vaga`, e os `enums` que garantem a consistência dos dados.
     -  **`systems` (Controller):** Contém a lógica principal do jogo. `MotorDoJogo` gerencia o loop de gameplay e o fluxo de turnos, enquanto `GerenciadorDeAcoes` atua como um "banco de dados" de conteúdo, filtrando as ações disponíveis para o jogador.
     -  **`ui` (View):** A classe `TerminalUI` é a única responsável por toda a interação com o usuário, desde exibir o dashboard e menus até capturar as entradas, garantindo que a lógica do jogo e a apresentação sejam desacopladas.
-
----
-
-## 🗺️ Diagrama UML
-
-O diagrama abaixo ilustra a relação entre as principais classes do sistema, demonstrando a estrutura e o fluxo de interações.
-
-![Diagrama UML demonstrando o funcionamento do projeto](https://github.com/Jhon-Victor-Ramos/jornada-dev-simulator/blob/main/UML%20Diagram%20-%20Atualizado.png)
 
 ---
 
